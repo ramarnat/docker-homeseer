@@ -1,0 +1,39 @@
+'Name,  			Updater version, 	File version, 	Notices version
+HomeSeer Updates File,		3.0.0.5,		99,		1
+homeseer.com,anonymous,user@updates,updates3,,,0.0.0.0
+
+'    UC = Use Code, bit 1 = S, bit 2 = PS, bit 4 = HW bit 8 = HomeTroller 16 = Windows 32 = Linux  (bit mapped)
+' 63=all OS's all hardware
+' 31=Windows only all hardware
+' 47=Linux only all hardware
+'    PC = Provider Code,  1 = HS, 2 = 3RD Party
+
+
+%<HS TYPE=CARTURL>http://store.homeseer.com/store/ProductId=<SKU>
+
+'the next line is a top level category, if all of these lines are commented out then HS will display only the categories
+'%HomeSeer Updates Line
+' ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+' Package Name                  Existing Version Info Binary	This Version	 UC PC   Server      Svr Loc      Zip File                      Type     Cost                    			Provider                        License ID              Icon File               Description File                SKU    Learn More   Plugin Name
+' ============================= =============================== ================ == == ============ ============ ============================== ====    ======================  			==============================  ======================= ======================  ==========================================================================
+'%<HS TYPE=SUBCAT>Control Software
+' -------------------------------------------------------------
+
+'%<HS TYPE=SUBCAT>Software Development Kit
+' -------------------------------------------------------------
+'HomeSeer Developer Kit,		,								,3.20.0,		 15, 1, homeseer.com,/updates3,		Developer_3-20-0.zip,			5,	Free,								HomeSeer Tech,			N/A,		Developer.gif,		Developer.htm,,
+
+'%<HS TYPE=SUBCAT>Help Files
+' -------------------------------------------------------------
+'HomeSeer 2.5 Web Help,		,									,2.5.0,	 		 15, 1, homeseer.com,/updates3,		WebHelp_2-5-0.zip,				5,	No Charge for updates,				HomeSeer Tech,			N/A,		help.gif,			hswebhelp.htm,,
+'HomeSeer 2.4 Section 508 Web Help,	,							,2.4.0,	 		 15, 1, homeseer.com,/updates3,		WebHelp508_2-4-0.zip,			5,	No Charge for updates,				HomeSeer Tech,			N/A,		help.gif,			hswebhelp508.htm,,
+
+
+'%HomeSeer Technologies Plug-Ins and Scripts
+' ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+' Package Name              Existing Version Info Binary		This Version	    UC PC  Server       Svr Loc      	Zip File                      	   Type Cost                    				Provider                        	License ID          Icon File               										Description File                												                        SKU    					Learn More
+' ========================= =================================== =================== == === ============ =============== ================================== ==== ======================================= =================================== =================== =============================================================== ======================================================================================================= ======================= =============================
+
+%<HS TYPE=SUBCAT>Security
+' -------------------------------------------------------------
+Concord 4 Security Panel,HSPI_CONCORD.exe, ,3.1.13.2,63,1, local,/updates3,ConcordV3_1_13_2.zip,4,FREE, ConcordTech, CONCORD,http://dl.dropboxusercontent.com/u/16422762/Homeseer/AlarmSystemKeypad_small.png,  https://dl.dropboxusercontent.com/u/16422762/Homeseer/ConcordV3.html,,
